@@ -21,38 +21,42 @@
           <value name="node_subtype">unknown</value>
           <value name="node_comment"></value>
           <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="field_usereditable">true</value>
             <value name="field_largerEditor">false</value>
             <value name="field_password">false</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">a</value>
-          <value name="field_type">string</value>
+          <value name="field_type">record</value>
           <value name="field_dim">0</value>
-          <array name="field_options" type="value" depth="1">
-          </array>
+          <value name="wrapper_type">IData</value>
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
+          <array name="rec_fields" type="record" depth="1">
+          </array>
+          <value name="rec_closed">true</value>
+          <value name="modifiable">true</value>
         </record>
         <record javaclass="com.wm.util.Values">
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
           <value name="node_comment"></value>
           <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="field_usereditable">true</value>
             <value name="field_largerEditor">false</value>
             <value name="field_password">false</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">b</value>
-          <value name="field_type">string</value>
+          <value name="field_type">record</value>
           <value name="field_dim">0</value>
-          <array name="field_options" type="value" depth="1">
-          </array>
+          <value name="wrapper_type">IData</value>
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
+          <array name="rec_fields" type="record" depth="1">
+          </array>
+          <value name="rec_closed">true</value>
+          <value name="modifiable">true</value>
         </record>
       </array>
       <value name="modifiable">true</value>
@@ -73,26 +77,27 @@
           <value name="node_subtype">unknown</value>
           <value name="node_comment"></value>
           <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="field_usereditable">true</value>
             <value name="field_largerEditor">false</value>
             <value name="field_password">false</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">c</value>
-          <value name="field_type">string</value>
+          <value name="field_type">record</value>
           <value name="field_dim">0</value>
-          <array name="field_options" type="value" depth="1">
-          </array>
+          <value name="wrapper_type">IData</value>
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
+          <array name="rec_fields" type="record" depth="1">
+          </array>
+          <value name="rec_closed">true</value>
+          <value name="modifiable">true</value>
         </record>
       </array>
       <value name="modifiable">true</value>
     </record>
   </record>
-  <value name="node_comment">Addition of 2 numbers
-</value>
+  <value name="node_comment"></value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>
   <value name="prefetch">no</value>
@@ -104,8 +109,8 @@
   <value name="system_service">no</value>
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
-  <value name="svc_in_validator_options">default</value>
-  <value name="svc_out_validator_options">default</value>
+  <value name="svc_in_validator_options">none</value>
+  <value name="svc_out_validator_options">none</value>
   <value name="auditoption">0</value>
   <null name="auditfields_input"/>
   <null name="auditfields_output"/>
